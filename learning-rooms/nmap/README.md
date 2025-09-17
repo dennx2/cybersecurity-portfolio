@@ -28,7 +28,7 @@ This guide provides an overview of Nmap scanning techniques, including TCP scans
 
 TCP scans are used to determine which TCP ports on a target are open, closed, or filtered.
 
-#### SYN Scan (`-sS`)
+### SYN Scan (`-sS`)
 
 - Also called: Half-open scans (doesn’t complete handshake, stealthier)
 - Finds open TCP ports
@@ -64,7 +64,7 @@ Port behavior (same as TCP Connect):
 
 SYN scans are fast, efficient, and relatively stealthy — that’s why they’re the default scan type in Nmap (when run as root).
 
-#### Connect Scan (`-sT`)
+### Connect Scan (`-sT`)
 
 - Full TCP handshake (less stealthy)
 - Use if SYN scan is blocked or needs root privileges
@@ -95,7 +95,7 @@ Cons:
 
 TCP Connect scan is simple, accurate, and doesn’t need special privileges, but it’s slower and more obvious compared to a SYN scan.
 
-#### Stealth & Aggressive Options
+### Stealth & Aggressive Options
 
 Purpose: Extra stealthy scans used to bypass firewalls/IDS. Try to sneak past basic filtering (firewalls that block SYN packets).
 
