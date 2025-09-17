@@ -161,26 +161,27 @@ Note:
 
 ## ICMP Network Scanning (Ping Sweep) (`-sn`)
 
-- Find which IPs are alive on a network.
+Find which IPs are alive on a network.
 
-- Command:
+Command:
 
-  - Range: `nmap -sn 192.168.0.1-254`
+- Range: `nmap -sn 192.168.0.1-254`
 
-  - CIDR: `nmap -sn 192.168.0.0/24`
+- CIDR: `nmap -sn 192.168.0.0/24`
 
-- `-sn` option:
+`-sn` option:
 
-  - Tells Nmap not to scan ports.
+- Tells Nmap not to scan ports.
 
-  - Uses ICMP echo (ping) or ARP requests (on local networks, requires sudo/root) to discover which hosts are alive, then stops without scanning ports.
+- Uses ICMP echo (ping) or ARP requests (on local networks, requires sudo/root) to discover which hosts are alive, then stops without scanning ports.
 
-  - If ping/ARP doesn’t work, Nmap also sends:
+- If ping/ARP doesn’t work, Nmap also sends:
 
-    - TCP SYN → port 443
+  - TCP SYN → port 443
 
-    - TCP ACK (or SYN if not root) → port 80
+  - TCP ACK (or SYN if not root) → port 80
 
+Note:
 - Ping sweeps quickly map active hosts, but results may not always be accurate (some hosts block ICMP).
 
 ---
