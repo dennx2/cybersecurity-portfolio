@@ -5,4 +5,4 @@ Nmap  is a free, open-source tool for network discovery and security auditing. I
 
 The typical Nmap scan follows several steps:
 
-![nmap steps](./screenshots/nmap%20scan%20steps.png){width=400px}
+![nmap steps](./screenshots/nmap%20scan%20steps.png)
