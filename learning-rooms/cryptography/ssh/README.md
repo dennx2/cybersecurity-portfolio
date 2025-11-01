@@ -93,3 +93,4 @@ Example: `ssh-keygen -lf ~/.ssh/id_rsa.pub` will show the bit size and fingerpri
 ![rsa-key](./screenshots/answer-ssh-rsa-key.png)
 
 **Answer:** RSA
+**Recommended Approach:** Use `ssh-keygen -lf /home/user/Public-Crypto-Basics/Task-5/id_rsa_1593558668558.id_rsa` to identify the key algorithm.
