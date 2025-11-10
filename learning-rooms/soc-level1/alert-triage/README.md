@@ -26,24 +26,18 @@
 - Communication with customers, partners, management, or law enforcement agencies is required.
 - You just do not fully understand the alert and need some help from more senior analysts.
 
---- 
 
 ## SOC Metrics and Objectives
 
 ### Core Metrics
 
-- Alerts Count (AC)
-  - Total Count of Alerts Received Overall load of SOC analysts.
-  - 5 to 30 alerts per day per L1 analyst is a good metric.
-- False Positive Rate (FPR)
-  - False Positives / Total Alerts Level of noise in the alerts.
-  - 0% is an unachievable ideal, but 80% or higher is a serious problem.
-- Alert Escalation Rate (AER)
-  - Escalated Alerts / Total Alerts Experience of L1 analysts.
-  - aimed to be below 50%, or even better below 20%.
-- Threat Detection Rate (TDR)
-  - Detected Threats / Total Threats Reliability of the SOC team.
-  - should always be at 100%.
+| Metric | Formula | Definition/Purpose | Target/Goal |
+| :--- | :--- | :--- | :--- |
+| Alerts Count (AC) | Total Count of Alerts Received | Overall load of SOC analysts. | 5 to 30 alerts per day per L1 analyst is a good metric. |
+| False Positive Rate (FPR) | False Positives / Total Alerts |  Level of noise in the alerts. | 0% is an unachievable ideal, but 80% or higher is a serious problem. |
+| Alert Escalation Rate (AER) | Escalated Alerts / Total Alerts | Experience of L1 analysts. | Aimed to be below 50%, or even better below 20%. |
+| Threat Detection Rate (TDR) | Detected Threats / Total Threats | Reliability of the SOC team. | Should always be at 100%. |
+
 
 ### Triage Metrics
 
