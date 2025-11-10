@@ -1,23 +1,20 @@
 ## How SOC team is involved in the alert triage:
 
-- SOC L1 analysts
-  - Review the alerts, distinguish bad from good, and notify L2 analysts in case of a real threat.
-- SOC L2 analysts
-  - Receive the alerts escalated by L1 analysts and perform deeper analysis and remediation.
-- SOC engineers
-  - Ensure the alerts contain enough information required for efficient alert triage.
-- SOC manager
-  - Track speed and quality of alert triage to ensure that real attacks won't be missed.
+**SOC L1 analysts**:  Review the alerts, distinguish bad from good, and notify L2 analysts in case of a real threat
+**SOC L2 analysts**:  Receive the alerts escalated by L1 analysts and perform deeper analysis and remediation
+**SOC engineers**:  Ensure the alerts contain enough information required for efficient alert triage
+**SOC manager**:  Track speed and quality of alert triage to ensure that real attacks won't be missed
 
 ![alert triage](./screenshots/alert-triage.png)
 
+
 ### Report format
 
-- Who: Which user logs in, runs the command, or downloads the file.
-- What: What exact action or event sequence was performed.
-- When: When exactly did the suspicious activity start and ended.
-- Where: Which device, IP, or website was involved in the alert.
-- Why: The most important W, the reasoning for your final verdict.
+- **Who**: Which user logs in, runs the command, or downloads the file.
+- **What**: What exact action or event sequence was performed.
+- **When**: When exactly did the suspicious activity start and ended.
+- **Where**: Which device, IP, or website was involved in the alert.
+- **Why**: The most important W, the reasoning for your final verdict.
 
 ### Escalate the alerts if:
 
@@ -26,6 +23,7 @@
 - Communication with customers, partners, management, or law enforcement agencies is required.
 - You just do not fully understand the alert and need some help from more senior analysts.
 
+---
 
 ## SOC Metrics and Objectives
 
