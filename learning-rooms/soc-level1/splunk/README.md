@@ -2,21 +2,38 @@
 
 ## Components
 
-Forwarder
+**Forwarder**
 
 - Collect the data and send it to the Splunk instance.
 - Does **not** affect the endpoint's performance as it takes a few resources to process.
 
-Indexer
+**Indexer**
 
 - Parses and **normalizes** the data into **field-value pairs**, categorizes it, and stores the results as events.
 
-Search Head
+**Search Head**
 
 - Within the **Search & Reporting App** and is the interface where users run **SPL queries** to retrieve and analyze indexed data from the indexers.
 - Allows you to transform results into presentable tables and visualizations
 
-### Practice Questions
+
+## Upload Files
+
+1. Select Source
+![Splunk File Upload 1](screenshots/splunk-upload-1.png)
+
+2. Set Source Type
+![Splunk File Upload 2](screenshots/splunk-upload-2.png)
+
+3. Input Settings
+![Splunk File Upload 3](screenshots/splunk-upload-3.png)
+![Splunk File Upload 4](screenshots/splunk-upload-4.png)
+
+4. Review and Done
+![Splunk File Upload 5](screenshots/splunk-upload-5.png)
+
+
+## Practice Questions
 
 1. Upload the data attached to this task and create an index "VPN_Logs". How many events are present in the log file?
 
