@@ -39,41 +39,41 @@
 
 ### Discovery Tab
 
-1. Which user is responsible for the overall maximum traffic?
-   Answer: James
+**Q1.** Which user is responsible for the overall maximum traffic?
    ![elk-discovery-q1](./screenshots/elk-discovery-q1.png)
+   Answer: James
 
-2. Apply Filter on UserName Emanda; which SourceIP has max hits?
-   Answer: 107.14.1.247
+**Q2.** Apply Filter on UserName Emanda; which SourceIP has max hits?
    ![elk-discovery-q2](./screenshots/elk-discovery-q2.png)
+   Answer: 107.14.1.247
 
-3. On 11th Jan, which IP caused the spike observed in the time chart?
-   Answer: 172.201.60.191
+**Q3.** On 11th Jan, which IP caused the spike observed in the time chart?
    ![elk-discovery-q3](./screenshots/elk-discovery-q3.png)
+   Answer: 172.201.60.191
 
-4. How many connections were observed from IP 238.163.231.224, excluding the New York state?
-   Answer: 48
+**Q4.** How many connections were observed from IP 238.163.231.224, excluding the New York state?
    ![elk-discovery-q4-1](./screenshots/elk-discovery-q4-1.png)
    ![elk-discovery-q4-2](./screenshots/elk-discovery-q4-2.png)
    ![elk-discovery-q4-3](./screenshots/elk-discovery-q4-3.png)
+   Answer: 48
 
-5. Create a table with the fields IP, UserName, Source_Country and save.
+**Q5.** Create a table with the fields IP, UserName, Source_Country and save.
    ![elk-discovery-q5](./screenshots/elk-discovery-q5.png)
 
 ### KQL
 
-1. Create a search query to filter the logs where Source_Country is the United States and show logs from User James or Albert. How many records were returned?
-Answer: 161
+**Q1.** Create a search query to filter the logs where Source_Country is the United States and show logs from User James or Albert. How many records were returned?
 ![elk-kql-q1](./screenshots/elk-kql-q1.png)
 
 ```kql
 Source_Country: "United States" and UserName : "James" or UserName :"Albert"
 ```
+Answer: 161
 
 
-2. A user Johny Brown was terminated on the 1st of January, 2022. Create a search query to determine how many times a VPN connection was observed after his termination.
-   Answer: 1
+**Q2.** A user Johny Brown was terminated on the 1st of January, 2022. Create a search query to determine how many times a VPN connection was observed after his termination.
    ![elk-kql-q2](./screenshots/elk-kql-q2.png)
+   Answer: 1
 
 ### Creating Visualization
 
@@ -82,12 +82,12 @@ Create a table to show the user and the IP address involved in failed attempts.
 ![elk-viz-q0-1](./screenshots/elk-viz-q0-1.png)
 ![elk-viz-q0-2](./screenshots/elk-viz-q0-2.png)
 
-1. Which user was observed with the greatest number of failed attempts?
-   Answer: Simon
+**Q1.** Which user was observed with the greatest number of failed attempts?
    ![elk-viz-q1-1](./screenshots/elk-viz-q1-1.png)
    ![elk-viz-q1-2](./screenshots/elk-viz-q1-2.png)
    ![elk-viz-q1-3](./screenshots/elk-viz-q1-3.png)
+   Answer: Simon
 
-2. How many wrong VPN connection attempts were observed in January?
-   Answer: 274
+**Q2.** How many wrong VPN connection attempts were observed in January?
    ![elk-viz-q2](./screenshots/elk-viz-q2.png)
+   Answer: 274
