@@ -1,12 +1,17 @@
-# Unified Kill Chain
-
-- The UKC covers an entire attack - from reconnaissance, exploitation, post-exploitation and includes identifying an attacker's motivation.
-- The UKC highlights a much more realistic attack scenario. Various stages will often re-occur. For example, after exploiting a machine, an attacker will begin reconnaissance to pivot another system.
-- Released in 2017, updated in 2022
+# Unified Kill Chain (UKC)
 
 ![18 phases in Unified Kill Chain](screenshots/the-unified-kill-chain.png)
 
-## Phase: In (Initial Foothold)
+- Covers an entire attack - from reconnaissance, exploitation, post-exploitation and includes identifying an attacker's motivation.
+- Highlights a much more realistic attack scenario. Various stages will often re-occur.
+  - For example, after exploiting a machine, an attacker will begin reconnaissance to pivot another system.
+- Released in 2017, updated in 2022 (Modern)
+
+---
+
+### Phase: In (Initial Foothold)
+
+![Initial Foothold](screenshots/phase-in.png)
 
 The main focus of this series of phases is for an attacker to gain access to a system or networked environment.
 
@@ -19,9 +24,11 @@ The main focus of this series of phases is for an attacker to gain access to a s
 - Command & Control (MITRE Tactic TA0011)
 - Pivoting (MITRE Tactic TA0008)
 
-![Initial Foothold](screenshots/phase-in.png)
+---
 
-## Phase: Through (Network Propagation)
+### Phase: Through (Network Propagation)
+
+![Network Propagation](screenshots/phase-through.png)
 
 An attacker would seek to gain additional access and privileges to systems and data to fulfil their goals. The attacker would set up a base on one of the systems to act as their pivot point and use it to gather information about the internal network.
 
@@ -32,9 +39,9 @@ An attacker would seek to gain additional access and privileges to systems and d
 - Credential Access (MITRE Tactic TA0006)
 - Lateral Movement (MITRE Tactic TA0008)
 
-![Network Propagation](screenshots/phase-through.png)
+---
 
-## Phase: Out (Action on Objectives)
+### Phase: Out (Action on Objectives)
 
 This phase wraps up the journey of an adversary’s attack on an environment, where they have critical asset access and can fulfil their attack goals. These goals are usually geared toward compromising the confidentiality, integrity and availability (CIA) triad.
 
