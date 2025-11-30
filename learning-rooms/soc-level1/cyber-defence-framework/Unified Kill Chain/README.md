@@ -1,4 +1,4 @@
-## Unified Kill Chain
+# Unified Kill Chain
 
 - The UKC covers an entire attack - from reconnaissance, exploitation, post-exploitation and includes identifying an attacker's motivation.
 - The UKC highlights a much more realistic attack scenario. Various stages will often re-occur. For example, after exploiting a machine, an attacker will begin reconnaissance to pivot another system.
@@ -6,7 +6,7 @@
 
 ![18 phases in Unified Kill Chain](screenshots/the-unified-kill-chain.png)
 
-### Phase: In (Initial Foothold)
+## Phase: In (Initial Foothold)
 
 The main focus of this series of phases is for an attacker to gain access to a system or networked environment.
 
@@ -21,7 +21,7 @@ The main focus of this series of phases is for an attacker to gain access to a s
 
 ![Initial Foothold](screenshots/phase-in.png)
 
-### Phase: Through (Network Propagation)
+## Phase: Through (Network Propagation)
 
 An attacker would seek to gain additional access and privileges to systems and data to fulfil their goals. The attacker would set up a base on one of the systems to act as their pivot point and use it to gather information about the internal network.
 
@@ -34,7 +34,7 @@ An attacker would seek to gain additional access and privileges to systems and d
 
 ![Network Propagation](screenshots/phase-through.png)
 
-### Phase: Out (Action on Objectives)
+## Phase: Out (Action on Objectives)
 
 This phase wraps up the journey of an adversary’s attack on an environment, where they have critical asset access and can fulfil their attack goals. These goals are usually geared toward compromising the confidentiality, integrity and availability (CIA) triad.
 
