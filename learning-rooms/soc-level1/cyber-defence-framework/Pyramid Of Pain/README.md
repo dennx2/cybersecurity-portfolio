@@ -12,14 +12,14 @@ Utilize this model to determine the level of difficulty it will cause for an adv
 
 ## Domain Names (Simple)
 
-**Punycode**
+### Punycode
 
 Example:
 
 - legitimate: adidas.de
 - adıdas.de = Punycode of http://xn--addas-o4a.de/
 
-**URL shorteners**
+### URL shorteners
 
 Appending "+" to the shortened link will display the actual website it is redirecting you to.
 
